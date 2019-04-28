@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.img {
+  width: 18%;
+  margin: 2px;
+}
+
+.button {
+  background: #cccccc;
+  padding: 5px;
+  margin: 0 2px;
+  width: 50px;
+  font-size: 10px;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: yellow;
+}
+
+.colorgrey {
+  opacity: 0.2;
+}
+
+.pagination {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.pageNum {
+  background: #dddddd;
+  padding: 5px;
+  margin: 0 2px;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pageNum:hover {
+  background: yellow;
+}
+
+.colorred {
+  background: #c56a6a;
+  padding: 8px 5px 5px;
+}
