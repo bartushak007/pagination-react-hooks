@@ -39,6 +39,7 @@ function App({ amountCards = 5, children }) {
         </Pagination.GoLeft>
         {cards.map((elem, i) => (
           <Pagination.PageItem
+            key={i}
             {...{ curentCardsList, setCurentCardsList, i, showElements }}
           />
         ))}
