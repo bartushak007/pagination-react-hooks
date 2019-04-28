@@ -18,7 +18,6 @@ const PageItem = ({
           )
         }
         onClick={() => setCurentCardsList(i)}
-        key={i}
       >
         {i}
       </span>
